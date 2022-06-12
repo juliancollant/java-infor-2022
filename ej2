@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ej2 {
+    public  static  void main (String[]args){
+        System.out.println("Digite el primer numero : ");
+        Scanner in=new Scanner(System.in);
+        int n1= in.nextInt();
+        System.out.println("Digite el segundo numero : ");
+        int n2= in.nextInt();
+        int suma,rest,mult;
+        double div;
+        suma = n1+n2;
+        rest=n1-n2;
+        mult=n1*n2;
+        div =n1/n2;
+        System.out.println("La suma es : "+suma+"\nla resta es : "+rest+"\nLa mult es : "+mult+"\nla division es : "+div);
+
+
+
+    }
+}
